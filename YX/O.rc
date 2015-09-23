@@ -1,0 +1,513 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\O.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 O"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "O 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2015",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_O_DIALOG DIALOGEX 0, 0, 592, 403
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "遥信板调试软件"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "",IDC_STC_LED01,"Static",SS_BLACKFRAME | WS_GROUP,20,22,
+                    5,5
+    CONTROL         "",IDC_STC_LED02,"Static",SS_BLACKFRAME,33,22,5,5
+    CONTROL         "",IDC_STC_LED03,"Static",SS_BLACKFRAME,48,22,5,5
+    CONTROL         "",IDC_STC_LED04,"Static",SS_BLACKFRAME,63,22,5,5
+    CONTROL         "",IDC_STC_LED05,"Static",SS_BLACKFRAME,78,22,5,5
+    CONTROL         "",IDC_STC_LED06,"Static",SS_BLACKFRAME,93,22,5,5
+    CONTROL         "",IDC_STC_LED07,"Static",SS_BLACKFRAME,108,22,5,5
+    CONTROL         "",IDC_STC_LED08,"Static",SS_BLACKFRAME,123,22,5,5
+    CONTROL         "",IDC_STC_LED09,"Static",SS_BLACKFRAME,138,22,5,5
+    CONTROL         "",IDC_STC_LED10,"Static",SS_BLACKFRAME,153,22,5,5
+    CONTROL         "",IDC_STC_LED11,"Static",SS_BLACKFRAME,168,22,5,5
+    CONTROL         "",IDC_STC_LED12,"Static",SS_BLACKFRAME,183,22,5,5
+    CONTROL         "",IDC_STC_LED13,"Static",SS_BLACKFRAME,20,46,5,5
+    CONTROL         "",IDC_STC_LED14,"Static",SS_BLACKFRAME,33,46,5,5
+    CONTROL         "",IDC_STC_LED15,"Static",SS_BLACKFRAME,48,46,5,5
+    CONTROL         "",IDC_STC_LED16,"Static",SS_BLACKFRAME,63,46,5,5
+    CONTROL         "",IDC_STC_LED17,"Static",SS_BLACKFRAME,78,46,5,5
+    CONTROL         "",IDC_STC_LED18,"Static",SS_BLACKFRAME,93,46,5,5
+    CONTROL         "",IDC_STC_LED19,"Static",SS_BLACKFRAME,108,46,5,5
+    CONTROL         "",IDC_STC_LED20,"Static",SS_BLACKFRAME,123,46,5,5
+    CONTROL         "",IDC_STC_LED21,"Static",SS_BLACKFRAME,138,46,5,5
+    CONTROL         "",IDC_STC_LED22,"Static",SS_BLACKFRAME,153,46,5,5
+    CONTROL         "",IDC_STC_LED23,"Static",SS_BLACKFRAME,168,46,5,5
+    CONTROL         "",IDC_STC_LED24,"Static",SS_BLACKFRAME,183,46,5,5
+    CONTROL         "",IDC_STC_LED25,"Static",SS_BLACKFRAME,20,72,5,5
+    CONTROL         "",IDC_STC_LED26,"Static",SS_BLACKFRAME,33,72,5,5
+    CONTROL         "",IDC_STC_LED27,"Static",SS_BLACKFRAME,48,72,5,5
+    CONTROL         "",IDC_STC_LED28,"Static",SS_BLACKFRAME,63,72,5,5
+    CONTROL         "",IDC_STC_LED29,"Static",SS_BLACKFRAME,78,72,5,5
+    CONTROL         "",IDC_STC_LED30,"Static",SS_BLACKFRAME,93,72,5,5
+    CONTROL         "",IDC_STC_LED31,"Static",SS_BLACKFRAME,108,72,5,5
+    CONTROL         "",IDC_STC_LED32,"Static",SS_BLACKFRAME,123,72,5,5
+    CONTROL         "",IDC_STC_LED33,"Static",SS_BLACKFRAME,138,72,5,5
+    CONTROL         "",IDC_STC_LED34,"Static",SS_BLACKFRAME,153,72,5,5
+    CONTROL         "",IDC_STC_LED35,"Static",SS_BLACKFRAME,168,72,5,5
+    CONTROL         "",IDC_STC_LED36,"Static",SS_BLACKFRAME,183,72,5,5
+    GROUPBOX        "开入信号",IDC_STATIC,5,5,200,95
+    COMBOBOX        IDC_COB_COM,43,115,55,71,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COB_BAUDRATE,43,137,55,71,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "打开串口",IDC_BTN_COM,105,114,37,14
+    PUSHBUTTON      "版本信息",IDC_BTN_EDT,105,136,37,14
+    EDITTEXT        IDC_EDT_YEAR,30,218,19,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_MONTH,57,218,19,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_DAY,84,218,19,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_HOUR,111,218,19,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_MINUTE,138,218,19,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_SECOND,165,218,19,12,ES_RIGHT | ES_AUTOHSCROLL
+    PUSHBUTTON      "提取系统时间",IDC_BTN_SETSYSTIME,15,247,53,14
+    PUSHBUTTON      "设为系统时间",IDC_BTN_SYSTIME,15,268,53,14
+    PUSHBUTTON      "提取遥信时间",IDC_BTN_RTIME,80,247,53,14
+    PUSHBUTTON      "设置遥信时间",IDC_BTN_STIME,80,268,53,14
+    CONTROL         "设置相同防抖时间",IDC_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,20,326,80,10
+    CONTROL         "设置不同防抖时间",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,20,308,80,10
+    EDITTEXT        IDC_EDT_JITTER,33,342,55,16,ES_AUTOHSCROLL
+    PUSHBUTTON      "提取全部防抖时间",IDC_BUTTON37,25,362,69,14
+    PUSHBUTTON      "设置全部防抖时间",IDC_BTN_JTIME,25,378,69,14
+    PUSHBUTTON      "提取事件",IDC_BTN_EVNT,217,277,37,14
+    LTEXT           "年",IDC_STATIC,34,234,9,8
+    LTEXT           "月",IDC_STATIC,62,234,9,8
+    LTEXT           "日",IDC_STATIC,89,234,9,8
+    LTEXT           "时",IDC_STATIC,116,234,9,8
+    LTEXT           "分",IDC_STATIC,143,234,9,8
+    LTEXT           "秒",IDC_STATIC,170,234,9,8
+    EDITTEXT        IDC_BOARD,217,32,352,242,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL
+    LTEXT           "01",IDC_STATIC,131,313,8,8
+    LTEXT           "02",IDC_STATIC,131,325,8,8
+    LTEXT           "03",IDC_STATIC,131,337,8,8
+    LTEXT           "04",IDC_STATIC,131,349,8,8
+    LTEXT           "05",IDC_STATIC,131,361,8,8
+    LTEXT           "06",IDC_STATIC,131,373,8,8
+    LTEXT           "07",IDC_STATIC,206,313,8,8
+    LTEXT           "08",IDC_STATIC,206,325,8,8
+    LTEXT           "09",IDC_STATIC,206,337,8,8
+    LTEXT           "10",IDC_STATIC,206,349,9,8
+    LTEXT           "11",IDC_STATIC,206,361,9,8
+    LTEXT           "12",IDC_STATIC,206,373,9,8
+    LTEXT           "13",IDC_STATIC,281,313,9,8
+    LTEXT           "14",IDC_STATIC,281,325,9,8
+    LTEXT           "15",IDC_STATIC,281,337,9,8
+    LTEXT           "16",IDC_STATIC,281,349,9,8
+    LTEXT           "17",IDC_STATIC,281,361,9,8
+    LTEXT           "18",IDC_STATIC,281,373,9,8
+    LTEXT           "19",IDC_STATIC,357,313,9,8
+    LTEXT           "20",IDC_STATIC,357,325,9,8
+    LTEXT           "21",IDC_STATIC,357,337,9,8
+    LTEXT           "22",IDC_STATIC,357,349,9,8
+    LTEXT           "23",IDC_STATIC,357,361,9,8
+    LTEXT           "24",IDC_STATIC,357,373,9,8
+    LTEXT           "25",IDC_STATIC,433,313,9,8
+    LTEXT           "26",IDC_STATIC,433,325,9,8
+    LTEXT           "27",IDC_STATIC,433,337,9,8
+    LTEXT           "28",IDC_STATIC,433,349,9,8
+    LTEXT           "29",IDC_STATIC,433,361,9,8
+    LTEXT           "30",IDC_STATIC,433,373,9,8
+    LTEXT           "31",IDC_STATIC,509,313,9,8
+    LTEXT           "32",IDC_STATIC,509,325,9,8
+    LTEXT           "33",IDC_STATIC,509,337,9,8
+    LTEXT           "34",IDC_STATIC,509,349,9,8
+    LTEXT           "35",IDC_STATIC,509,361,9,8
+    LTEXT           "36",IDC_STATIC,509,373,9,8
+    GROUPBOX        "防抖时间",IDC_STATIC,5,296,580,99
+    GROUPBOX        "事件记录",IDC_STATIC,210,5,375,290
+    GROUPBOX        "基本设置",IDC_STATIC,5,101,200,57
+    GROUPBOX        "时间设置",IDC_STATIC,5,159,200,136
+    EDITTEXT        IDC_EDIT37,143,311,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT38,143,323,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT39,143,335,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT40,143,347,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT41,143,359,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT42,143,371,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT43,219,311,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT44,219,323,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT45,219,335,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT46,219,347,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT47,219,359,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT48,219,371,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT49,295,311,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT50,295,323,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT51,295,335,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT52,295,347,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT53,295,359,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT54,295,371,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT55,371,311,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT56,371,323,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT57,371,335,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT58,371,347,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT59,371,359,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT60,371,371,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT61,447,311,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT62,447,323,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT63,447,335,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT64,447,347,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT65,447,359,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT66,447,371,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT67,523,311,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT68,523,323,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT69,523,335,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT70,523,347,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT71,523,359,42,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT72,523,371,42,12,ES_AUTOHSCROLL
+    LTEXT           "例: 15年 01月 01日 23时 59分 59秒",IDC_STC_TIME,30,201,
+                    174,8
+    PUSHBUTTON      "显示时间精度",IDC_BUTTON38,145,247,53,14
+    PUSHBUTTON      "清除事件",IDC_BTN_CLEANEVENT,317,277,37,14
+    PUSHBUTTON      "清空记录",IDC_BUTTON39,417,277,37,14
+    PUSHBUTTON      "地址信息",IDC_BTN_BASIC,149,136,37,14
+    CONTROL         "自动提取事件",IDC_CHK_EVENT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,217,18,64,10
+    PUSHBUTTON      "冻结屏幕",IDC_BTN_STOP,517,277,37,14
+    CONTROL         "显示报文",IDC_CHK_MSG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,282,18,48,10
+    LTEXT           "串口号",IDC_STATIC,17,117,25,8
+    LTEXT           "波特率",IDC_STATIC,17,139,25,8
+    LTEXT           "1",IDC_STATIC,23,32,9,8
+    LTEXT           "2",IDC_STATIC,36,32,9,8
+    LTEXT           "3",IDC_STATIC,51,32,9,8
+    LTEXT           "4",IDC_STATIC,66,32,9,8
+    LTEXT           "5",IDC_STATIC,81,32,9,8
+    LTEXT           "6",IDC_STATIC,96,32,9,8
+    LTEXT           "7",IDC_STATIC,111,32,9,8
+    LTEXT           "8",IDC_STATIC,126,32,9,8
+    LTEXT           "9",IDC_STATIC,141,32,9,8
+    LTEXT           "10",IDC_STATIC,154,32,9,8
+    LTEXT           "11",IDC_STATIC,169,32,9,8
+    LTEXT           "12",IDC_STATIC,184,32,9,8
+    LTEXT           "13",IDC_STATIC,21,57,9,8
+    LTEXT           "14",IDC_STATIC,34,57,9,8
+    LTEXT           "15",IDC_STATIC,49,57,9,8
+    LTEXT           "16",IDC_STATIC,64,57,9,8
+    LTEXT           "17",IDC_STATIC,79,57,9,8
+    LTEXT           "18",IDC_STATIC,94,57,9,8
+    LTEXT           "19",IDC_STATIC,109,57,9,8
+    LTEXT           "20",IDC_STATIC,124,57,9,8
+    LTEXT           "21",IDC_STATIC,139,57,9,8
+    LTEXT           "22",IDC_STATIC,154,57,9,8
+    LTEXT           "23",IDC_STATIC,169,57,9,8
+    LTEXT           "24",IDC_STATIC,184,57,9,8
+    LTEXT           "25",IDC_STATIC,21,83,9,8
+    LTEXT           "26",IDC_STATIC,34,83,9,8
+    LTEXT           "27",IDC_STATIC,49,83,9,8
+    LTEXT           "28",IDC_STATIC,64,83,9,8
+    LTEXT           "29",IDC_STATIC,79,83,9,8
+    LTEXT           "30",IDC_STATIC,94,83,9,8
+    LTEXT           "31",IDC_STATIC,109,83,9,8
+    LTEXT           "32",IDC_STATIC,124,83,9,8
+    LTEXT           "33",IDC_STATIC,139,83,9,8
+    LTEXT           "34",IDC_STATIC,154,83,9,8
+    LTEXT           "35",IDC_STATIC,169,83,9,8
+    LTEXT           "36",IDC_STATIC,184,83,9,8
+    EDITTEXT        IDC_EDT_SNUM,367,16,30,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDT_RNUM,435,16,30,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "发送报文",IDC_STATIC,333,18,33,8
+    LTEXT           "接受报文",IDC_STATIC,401,18,33,8
+    LTEXT           "成功率",IDC_STATIC,468,18,25,8
+    EDITTEXT        IDC_EDT_PBT,494,16,30,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "刷新串口",IDC_BTN_FLSCOMM,149,114,37,14
+    GROUPBOX        "",IDC_STATIC,12,317,97,43
+    LTEXT           "事件条数",IDC_STATIC,528,18,33,8
+    EDITTEXT        IDC_EDT_EVENTNUM,561,16,18,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "遥信板时钟",IDC_CHK_YXCLOCK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,30,181,56,10
+    CONTROL         138,IDC_STC_BITMAP,"Static",SS_BITMAP,177,174,23,23
+    EDITTEXT        IDC_EDT_ERRNUM,143,179,18,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "时钟错误次数",IDC_STATIC,93,181,49,8
+END
+
+IDD_DIALOGTEST DIALOG DISCARDABLE  0, 0, 187, 96
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,130,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,130,24,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "O Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "O\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2015\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "O.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "O 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_O_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 585
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 396
+    END
+
+    IDD_DIALOGTEST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_O_DIALOG DLGINIT
+BEGIN
+    IDC_COB_COM, 0x403, 5, 0
+0x4f43, 0x314d, "\000" 
+    IDC_COB_COM, 0x403, 5, 0
+0x4f43, 0x324d, "\000" 
+    IDC_COB_COM, 0x403, 5, 0
+0x4f43, 0x334d, "\000" 
+    IDC_COB_COM, 0x403, 5, 0
+0x4f43, 0x344d, "\000" 
+    IDC_COB_COM, 0x403, 5, 0
+0x4f43, 0x354d, "\000" 
+    IDC_COB_COM, 0x403, 5, 0
+0x4f43, 0x364d, "\000" 
+    IDC_COB_COM, 0x403, 5, 0
+0x4f43, 0x374d, "\000" 
+    IDC_COB_COM, 0x403, 5, 0
+0x4f43, 0x384d, "\000" 
+    IDC_COB_COM, 0x403, 5, 0
+0x4f43, 0x394d, "\000" 
+    IDC_COB_COM, 0x403, 6, 0
+0x4f43, 0x314d, 0x0030, 
+    IDC_COB_COM, 0x403, 6, 0
+0x4f43, 0x314d, 0x0031, 
+    IDC_COB_COM, 0x403, 6, 0
+0x4f43, 0x314d, 0x0032, 
+    IDC_COB_COM, 0x403, 6, 0
+0x4f43, 0x314d, 0x0033, 
+    IDC_COB_COM, 0x403, 6, 0
+0x4f43, 0x314d, 0x0034, 
+    IDC_COB_COM, 0x403, 6, 0
+0x4f43, 0x314d, 0x0035, 
+    IDC_COB_COM, 0x403, 6, 0
+0x4f43, 0x314d, 0x0036, 
+    IDC_COB_COM, 0x403, 6, 0
+0x4f43, 0x314d, 0x0037, 
+    IDC_COB_COM, 0x403, 6, 0
+0x4f43, 0x314d, 0x0038, 
+    IDC_COB_COM, 0x403, 6, 0
+0x4f43, 0x314d, 0x0039, 
+    IDC_COB_COM, 0x403, 6, 0
+0x4f43, 0x324d, 0x0030, 
+    IDC_COB_BAUDRATE, 0x403, 4, 0
+0x3033, 0x0030, 
+    IDC_COB_BAUDRATE, 0x403, 4, 0
+0x3036, 0x0030, 
+    IDC_COB_BAUDRATE, 0x403, 5, 0
+0x3231, 0x3030, "\000" 
+    IDC_COB_BAUDRATE, 0x403, 5, 0
+0x3432, 0x3030, "\000" 
+    IDC_COB_BAUDRATE, 0x403, 5, 0
+0x3834, 0x3030, "\000" 
+    IDC_COB_BAUDRATE, 0x403, 5, 0
+0x3639, 0x3030, "\000" 
+    IDC_COB_BAUDRATE, 0x403, 6, 0
+0x3931, 0x3032, 0x0030, 
+    IDC_COB_BAUDRATE, 0x403, 6, 0
+0x3833, 0x3034, 0x0030, 
+    IDC_COB_BAUDRATE, 0x403, 6, 0
+0x3735, 0x3036, 0x0030, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_LEDS         BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_BITMAP_ERR          BITMAP  DISCARDABLE     "res\\cancel.bmp"
+IDB_BITMAP_OK           BITMAP  DISCARDABLE     "res\\ok.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\A.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 O(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\O.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

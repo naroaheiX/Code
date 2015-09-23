@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: O - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Haoran\AppData\Local\Temp\RSP410B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/O.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"S:\Project\DTUÒ£ÐÅ°å\O\Comm_Thread.cpp"
+]
+Creating command line "cl.exe @C:\Users\Haoran\AppData\Local\Temp\RSP410B.tmp" 
+Creating temporary file "C:\Users\Haoran\AppData\Local\Temp\RSP411C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/O.pdb" /machine:I386 /out:"Release/O.exe" 
+".\Release\Comm_Thread.obj"
+".\Release\Led.obj"
+".\Release\NewEdit.obj"
+".\Release\NewEdit2.obj"
+".\Release\O.obj"
+".\Release\ODlg.obj"
+".\Release\StdAfx.obj"
+".\Release\O.res"
+".\PCOMM.LIB"
+]
+Creating command line "link.exe @C:\Users\Haoran\AppData\Local\Temp\RSP411C.tmp"
+<h3>Output Window</h3>
+Compiling...
+Comm_Thread.cpp
+S:\Project\DTUÒ£ÐÅ°å\O\Comm_Thread.cpp(721) : warning C4715: 'CComm_Thread::OnIdle' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+O.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
